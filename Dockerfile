@@ -1,4 +1,4 @@
-FROM adoptopenjdk:21.0.4_7-jdk-hotspot
+FROM amazoncorretto:21-alpine-jdk
 
 
 COPY target/Personal-0.0.1-SNAPSHOT.jar app.jar
